@@ -1,0 +1,22 @@
+node_modules/
+package-lock.json
+
+# Never commit credentials
+.env
+.env.*
+*.key
+claude_desktop_config.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*

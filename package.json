@@ -1,0 +1,43 @@
+{
+  "name": "perplexity-deep-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing Perplexity's asynchronous Sonar Deep Research API, so long-running research jobs survive MCP client request timeouts.",
+  "type": "commonjs",
+  "main": "server.js",
+  "bin": {
+    "perplexity-deep-mcp": "server.js"
+  },
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "inspect": "npx @modelcontextprotocol/inspector node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "perplexity",
+    "sonar",
+    "deep-research",
+    "claude",
+    "llm-tools"
+  ],
+  "author": "Aakash Anil",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakashanil67/perplexity-deep-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aakashanil67/perplexity-deep-mcp/issues"
+  },
+  "homepage": "https://github.com/Aakashanil67/perplexity-deep-mcp#readme"
+}
