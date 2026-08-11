@@ -123,7 +123,7 @@ Two details worth knowing if you adapt this:
 
 Everything written to stdout has to be a JSON-RPC frame. A stray `console.log` corrupts the stream and the client drops the connection with no useful error. All logging here goes to stderr.
 
-The process tracks in-flight requests and won't exit on stdin close while a call is still awaiting the API. Without that guard a closing client can drop a reply that was about to be written.
+The process tracks in flight requests and won't exit on stdin close while a call is still awaiting the API. Without that guard a closing client can drop a reply that was about to be written.
 
 ## Errors
 
