@@ -14,6 +14,7 @@
   ],
   "scripts": {
     "start": "node server.js",
+    "test": "node --test test/*.test.js",
     "check": "node --check server.js",
     "inspect": "npx @modelcontextprotocol/inspector node server.js"
   },
